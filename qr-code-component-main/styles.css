@@ -55,17 +55,20 @@ body{
 
 .card-text p{
     font-size: 15px;
-    font-weight: 400;
     text-align: center;
     height: 53px;
     padding-top: 19px;
-    color: var(--greyish-blue)
+    color: var(--greyish-blue);
 }
 
 .attribution{
-    transform: translate(-50%, -50%);
     position: absolute;
-    top: 80%;
+    top: calc(50% + 268px);
     left: 50%;
+    transform: translateX(-50%);
+    font-size: 11px;
+    text-align: center;
+    font-weight: 600;
 
-}
+  }
+ 
