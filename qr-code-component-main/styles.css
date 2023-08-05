@@ -11,7 +11,7 @@
     --white: hsl(0, 0%, 100%);
     --light-grey: hsl(212, 45%, 89%);
     --greyish-blue: hsl(220, 15%, 55%);
-    --dark-blue: hsl(218, 44%, 22%);
+    --dark-blue: #1f3251;
     --qr-blue: #2a7ef9;
 }
 
@@ -46,11 +46,12 @@ body{
     padding: 0 12px 13px;
 }
 
-.card-text h5{
-    font-size: 20px;
+.card-text h1{
+    font-size: 22px;
     padding-top: 9px;
     font-weight: 600;
     text-align: center;
+   
 }
 
 .card-text p{
